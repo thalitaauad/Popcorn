@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3E22823331856EDD1E30BB /* Pods_Popcorn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DA43C1572C9B0F761C8721 /* Pods_Popcorn.framework */; };
+		7E3B9A86BDF328E1C2F6DC7C /* Pods_PopcornTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA384D7EB2184A4E55FFE672 /* Pods_PopcornTests.framework */; };
+		AEF70A251DFB388342961760 /* Pods_Popcorn_PopcornUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8454A94DDC75782A2EA2FC61 /* Pods_Popcorn_PopcornUITests.framework */; };
 		C8DC4F70298D6CF00085B074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4F6F298D6CF00085B074 /* AppDelegate.swift */; };
 		C8DC4F72298D6CF00085B074 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4F71298D6CF00085B074 /* SceneDelegate.swift */; };
-		C8DC4F74298D6CF00085B074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4F73298D6CF00085B074 /* ViewController.swift */; };
+		C8DC4F74298D6CF00085B074 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4F73298D6CF00085B074 /* MoviesViewController.swift */; };
 		C8DC4F77298D6CF00085B074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8DC4F75298D6CF00085B074 /* Main.storyboard */; };
 		C8DC4F79298D6CF20085B074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DC4F78298D6CF20085B074 /* Assets.xcassets */; };
 		C8DC4F7C298D6CF20085B074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8DC4F7A298D6CF20085B074 /* LaunchScreen.storyboard */; };
 		C8DC4F87298D6CF20085B074 /* PopcornTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4F86298D6CF20085B074 /* PopcornTests.swift */; };
 		C8DC4F91298D6CF20085B074 /* PopcornUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4F90298D6CF20085B074 /* PopcornUITests.swift */; };
 		C8DC4F93298D6CF20085B074 /* PopcornUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4F92298D6CF20085B074 /* PopcornUITestsLaunchTests.swift */; };
+		C8DC4FA3298D6FBD0085B074 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4FA2298D6FBD0085B074 /* API.swift */; };
+		C8DC4FA5298D6FD90085B074 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4FA4298D6FD90085B074 /* Extensions.swift */; };
+		C8DC4FA7298D6FF70085B074 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4FA6298D6FF70085B074 /* Constantes.swift */; };
+		C8DC4FA9298D701E0085B074 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4FA8298D701E0085B074 /* MovieModel.swift */; };
+		C8DC4FAB298D70370085B074 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4FAA298D70370085B074 /* Movie.swift */; };
+		C8DC4FAD298D706E0085B074 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4FAC298D706E0085B074 /* CircleButton.swift */; };
+		C8DC4FAF298D70890085B074 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4FAE298D70890085B074 /* MovieTableViewCell.swift */; };
+		C8DC4FB1298D70C10085B074 /* NoMovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4FB0298D70C10085B074 /* NoMovieTableViewCell.swift */; };
+		C8DC4FB3298D71A70085B074 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC4FB2298D71A70085B074 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29DA43C1572C9B0F761C8721 /* Pods_Popcorn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Popcorn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3236DE76A235E9688AAD1AA2 /* Pods-Popcorn-PopcornUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popcorn-PopcornUITests.debug.xcconfig"; path = "Target Support Files/Pods-Popcorn-PopcornUITests/Pods-Popcorn-PopcornUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F7BF4B15650883ADE02F5CF /* Pods-Popcorn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popcorn.release.xcconfig"; path = "Target Support Files/Pods-Popcorn/Pods-Popcorn.release.xcconfig"; sourceTree = "<group>"; };
+		740A28B6A322C127EF08F73F /* Pods-Popcorn-PopcornUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popcorn-PopcornUITests.release.xcconfig"; path = "Target Support Files/Pods-Popcorn-PopcornUITests/Pods-Popcorn-PopcornUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8454A94DDC75782A2EA2FC61 /* Pods_Popcorn_PopcornUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Popcorn_PopcornUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D4AA97F9DE5E89F6CA3C84 /* Pods-PopcornTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornTests.debug.xcconfig"; path = "Target Support Files/Pods-PopcornTests/Pods-PopcornTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA6493C3F6AFFC2032C2D213 /* Pods-Popcorn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popcorn.debug.xcconfig"; path = "Target Support Files/Pods-Popcorn/Pods-Popcorn.debug.xcconfig"; sourceTree = "<group>"; };
 		C8DC4F6C298D6CF00085B074 /* Popcorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popcorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DC4F6F298D6CF00085B074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8DC4F71298D6CF00085B074 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C8DC4F73298D6CF00085B074 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8DC4F73298D6CF00085B074 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		C8DC4F76298D6CF00085B074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8DC4F78298D6CF20085B074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8DC4F7B298D6CF20085B074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,17 @@
 		C8DC4F8C298D6CF20085B074 /* PopcornUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopcornUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DC4F90298D6CF20085B074 /* PopcornUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcornUITests.swift; sourceTree = "<group>"; };
 		C8DC4F92298D6CF20085B074 /* PopcornUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcornUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8DC4FA2298D6FBD0085B074 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C8DC4FA4298D6FD90085B074 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C8DC4FA6298D6FF70085B074 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		C8DC4FA8298D701E0085B074 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		C8DC4FAA298D70370085B074 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C8DC4FAC298D706E0085B074 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		C8DC4FAE298D70890085B074 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		C8DC4FB0298D70C10085B074 /* NoMovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoMovieTableViewCell.swift; sourceTree = "<group>"; };
+		C8DC4FB2298D71A70085B074 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F5BAF47BB8E716AD83B6FF5D /* Pods-PopcornTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornTests.release.xcconfig"; path = "Target Support Files/Pods-PopcornTests/Pods-PopcornTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA384D7EB2184A4E55FFE672 /* Pods_PopcornTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcornTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3E22823331856EDD1E30BB /* Pods_Popcorn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3B9A86BDF328E1C2F6DC7C /* Pods_PopcornTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF70A251DFB388342961760 /* Pods_Popcorn_PopcornUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D3D99630DCDAAF5D196164D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29DA43C1572C9B0F761C8721 /* Pods_Popcorn.framework */,
+				8454A94DDC75782A2EA2FC61 /* Pods_Popcorn_PopcornUITests.framework */,
+				FA384D7EB2184A4E55FFE672 /* Pods_PopcornTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6785B10F27D30454769B7EC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA6493C3F6AFFC2032C2D213 /* Pods-Popcorn.debug.xcconfig */,
+				3F7BF4B15650883ADE02F5CF /* Pods-Popcorn.release.xcconfig */,
+				3236DE76A235E9688AAD1AA2 /* Pods-Popcorn-PopcornUITests.debug.xcconfig */,
+				740A28B6A322C127EF08F73F /* Pods-Popcorn-PopcornUITests.release.xcconfig */,
+				A9D4AA97F9DE5E89F6CA3C84 /* Pods-PopcornTests.debug.xcconfig */,
+				F5BAF47BB8E716AD83B6FF5D /* Pods-PopcornTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C8DC4F63298D6CF00085B074 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +139,8 @@
 				C8DC4F85298D6CF20085B074 /* PopcornTests */,
 				C8DC4F8F298D6CF20085B074 /* PopcornUITests */,
 				C8DC4F6D298D6CF00085B074 /* Products */,
+				6785B10F27D30454769B7EC9 /* Pods */,
+				0D3D99630DCDAAF5D196164D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +159,9 @@
 			children = (
 				C8DC4F6F298D6CF00085B074 /* AppDelegate.swift */,
 				C8DC4F71298D6CF00085B074 /* SceneDelegate.swift */,
-				C8DC4F73298D6CF00085B074 /* ViewController.swift */,
+				C8DC4F9F298D6F530085B074 /* Model */,
+				C8DC4FA0298D6F650085B074 /* View */,
+				C8DC4FA1298D6F7D0085B074 /* Controller */,
 				C8DC4F75298D6CF00085B074 /* Main.storyboard */,
 				C8DC4F78298D6CF20085B074 /* Assets.xcassets */,
 				C8DC4F7A298D6CF20085B074 /* LaunchScreen.storyboard */,
@@ -127,6 +187,37 @@
 			path = PopcornUITests;
 			sourceTree = "<group>";
 		};
+		C8DC4F9F298D6F530085B074 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8DC4FA2298D6FBD0085B074 /* API.swift */,
+				C8DC4FA4298D6FD90085B074 /* Extensions.swift */,
+				C8DC4FA6298D6FF70085B074 /* Constantes.swift */,
+				C8DC4FA8298D701E0085B074 /* MovieModel.swift */,
+				C8DC4FAA298D70370085B074 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C8DC4FA0298D6F650085B074 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8DC4FAC298D706E0085B074 /* CircleButton.swift */,
+				C8DC4FAE298D70890085B074 /* MovieTableViewCell.swift */,
+				C8DC4FB0298D70C10085B074 /* NoMovieTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8DC4FA1298D6F7D0085B074 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8DC4F73298D6CF00085B074 /* MoviesViewController.swift */,
+				C8DC4FB2298D71A70085B074 /* DetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8DC4F96298D6CF20085B074 /* Build configuration list for PBXNativeTarget "Popcorn" */;
 			buildPhases = (
+				BFE0398A5D55B7D8F2EC5EA4 /* [CP] Check Pods Manifest.lock */,
 				C8DC4F68298D6CF00085B074 /* Sources */,
 				C8DC4F69298D6CF00085B074 /* Frameworks */,
 				C8DC4F6A298D6CF00085B074 /* Resources */,
+				8E818EFBCEFFE115C4A0DCB8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8DC4F99298D6CF20085B074 /* Build configuration list for PBXNativeTarget "PopcornTests" */;
 			buildPhases = (
+				6E7AD5B99063BCB6AB887E6D /* [CP] Check Pods Manifest.lock */,
 				C8DC4F7E298D6CF20085B074 /* Sources */,
 				C8DC4F7F298D6CF20085B074 /* Frameworks */,
 				C8DC4F80298D6CF20085B074 /* Resources */,
@@ -169,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8DC4F9C298D6CF20085B074 /* Build configuration list for PBXNativeTarget "PopcornUITests" */;
 			buildPhases = (
+				42D2BB1BCE328D7332E4C41B /* [CP] Check Pods Manifest.lock */,
 				C8DC4F88298D6CF20085B074 /* Sources */,
 				C8DC4F89298D6CF20085B074 /* Frameworks */,
 				C8DC4F8A298D6CF20085B074 /* Resources */,
+				2447F81520D2100A993D7ADC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +349,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2447F81520D2100A993D7ADC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Popcorn-PopcornUITests/Pods-Popcorn-PopcornUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Popcorn-PopcornUITests/Pods-Popcorn-PopcornUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Popcorn-PopcornUITests/Pods-Popcorn-PopcornUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42D2BB1BCE328D7332E4C41B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Popcorn-PopcornUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E7AD5B99063BCB6AB887E6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopcornTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E818EFBCEFFE115C4A0DCB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Popcorn/Pods-Popcorn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Popcorn/Pods-Popcorn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Popcorn/Pods-Popcorn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE0398A5D55B7D8F2EC5EA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Popcorn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C8DC4F68298D6CF00085B074 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8DC4F74298D6CF00085B074 /* ViewController.swift in Sources */,
+				C8DC4FAF298D70890085B074 /* MovieTableViewCell.swift in Sources */,
+				C8DC4FA9298D701E0085B074 /* MovieModel.swift in Sources */,
+				C8DC4FB1298D70C10085B074 /* NoMovieTableViewCell.swift in Sources */,
+				C8DC4FA5298D6FD90085B074 /* Extensions.swift in Sources */,
+				C8DC4F74298D6CF00085B074 /* MoviesViewController.swift in Sources */,
+				C8DC4FAD298D706E0085B074 /* CircleButton.swift in Sources */,
 				C8DC4F70298D6CF00085B074 /* AppDelegate.swift in Sources */,
+				C8DC4FA3298D6FBD0085B074 /* API.swift in Sources */,
 				C8DC4F72298D6CF00085B074 /* SceneDelegate.swift in Sources */,
+				C8DC4FAB298D70370085B074 /* Movie.swift in Sources */,
+				C8DC4FA7298D6FF70085B074 /* Constantes.swift in Sources */,
+				C8DC4FB3298D71A70085B074 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +640,7 @@
 		};
 		C8DC4F97298D6CF20085B074 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6493C3F6AFFC2032C2D213 /* Pods-Popcorn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +669,7 @@
 		};
 		C8DC4F98298D6CF20085B074 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F7BF4B15650883ADE02F5CF /* Pods-Popcorn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +698,7 @@
 		};
 		C8DC4F9A298D6CF20085B074 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D4AA97F9DE5E89F6CA3C84 /* Pods-PopcornTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +719,7 @@
 		};
 		C8DC4F9B298D6CF20085B074 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5BAF47BB8E716AD83B6FF5D /* Pods-PopcornTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +740,7 @@
 		};
 		C8DC4F9D298D6CF20085B074 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3236DE76A235E9688AAD1AA2 /* Pods-Popcorn-PopcornUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +759,7 @@
 		};
 		C8DC4F9E298D6CF20085B074 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740A28B6A322C127EF08F73F /* Pods-Popcorn-PopcornUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,9 +1,4 @@
-//
-//  SceneDelegate.swift
-//  Popcorn
-//
-//  Created by Thalita Prado Auad on 03/02/23.
-//
+
 
 import UIKit
 
